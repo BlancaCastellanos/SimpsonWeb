@@ -1,0 +1,55 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://i.pinimg.com/originals/d3/7a/17/d37a171eab78c3c7d729ddd1796cc7bf.jpg"); 
+    margin: 0%;
+}
+
+
+.bg
+{
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    background-size: cover;
+}
+
+
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.main
+{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 100px;
+}
+
+
+.title
+{
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+.name, .lastname
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
